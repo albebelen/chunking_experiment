@@ -14,9 +14,9 @@ returns the best chunks
 '''
 # use for other chunking except subdoc and pageindex
 # per questo tipo di documenti k = 3 è quella ideale
-def retrieve_top_k(collection, queries, embeddings, k=3):
+def retrieve_top_k(collection, queries, k=3):
   results = collection.query(
-     query_texts=queries,
+     query_texts=[queries],
      n_results = k
   )
-  return results
+  return results["documents"]

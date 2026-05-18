@@ -5,11 +5,12 @@ from langchain_ollama import OllamaEmbeddings
 from langchain_community.llms import Ollama
 from time import time 
 import os 
+import chromadb
 
-from funcs.utils import read_document, retrieve_top_k
-from questions.questions_dataset import questions
-
-from chunking.subdocument_chunking import subdocument_chunking
+from testset.questions_set import questions
+from funcs.utils import read_clean_doc, retrieve_top_k
+from chunking.fixed_size_chunking import fixed_size_chunking
+from libs.MyEmbeddingFunction import MyEmbeddingFunction
 
 OLLAMA_CLOUD_URL = "https://ollama.com"
 OLLAMA_BASE_URL = "http://127.0.0.1:11434"
@@ -17,28 +18,54 @@ OLLAMA_BASE_MODEL = "gpt-oss:120b-cloud"
 OLLAMA_EMBEDDING_MODEL = "qwen3-embedding:0.6b"
 OLLAMA_API_KEY = "c036e8dbcabc49e28bcdeb7ca52cb800.IIPzB42NuCYS0gXLELXKzjtz"
 
+
+# env setup
 llm = Ollama(
     model=OLLAMA_BASE_MODEL,
     base_url=OLLAMA_CLOUD_URL,
     temperature=0,
     headers={"Authorization": f"Bearer {OLLAMA_API_KEY}"}
 )
+
 embeddings = OllamaEmbeddings(
     model=OLLAMA_EMBEDDING_MODEL, 
     base_url=OLLAMA_BASE_URL,
 )
 
-document = read_document('docs/CELEX_32006L0054_EN_TXT.pdf')
+ollama_ef = MyEmbeddingFunction(model=OLLAMA_EMBEDDING_MODEL)
+
+chroma_client = chromadb.Client()
+collection = chroma_client.create_collection(name="chunked_document", embedding_function=ollama_ef)
+
+
+# start chunking
+document = read_clean_doc('documents/CELEX_32006L0054_EN_TXT.pdf') # todo: pulire documento
 
 start_time = time()
 
-chunks = subdocument_chunking(document, 'docs/CELEX_32006L0054_EN_TXT.pdf')
+chunks = fixed_size_chunking(document, is_eng=False)
+
+
+
+collection.add(
+    ids = [f"id{i}" for i in range(1, len(chunks) + 1)],
+    documents = chunks
+)
+
+collection_data = collection.get()
+ids = collection_data.get("ids", [])
+documents = collection_data.get("documents", [])
+
+for i in range(len(documents)):
+    print(f"ID: {ids[i]}")
+    print(f"Content: {documents[i]}")
+    print("-" * 50)
 
 for q in questions:
-    retrieved = retrieve_top_k(chunks, q["question"], embeddings, k=5)
-    q["contexts"].append(retrieved)
+    q["contexts"] = retrieve_top_k(collection, q["question"])
+    #q["contexts"].append(retrieved)
 
-    provided_context = "\n\n".join(retrieved)
+    provided_context = q["contexts"]
 
     prompt = f"""
     Answer only based on provided context.
@@ -82,12 +109,12 @@ result = evaluate(
 
 i = 1
 
-with open('outputs/subdocument_chunking_ts.txt', 'w') as output:
+with open('outputs/fixed_size_chunking.txt', 'w') as output:
     for chunk in chunks:
         output.write('chunk ' + str(i) + ' : ' + chunk  + '\n')
         i+= 1
 
-file_size = os.path.getsize('outputs/subdocument_chunking_ts.txt')
+file_size = os.path.getsize('outputs/fixed_size_chunking.txt')
 
 print(result)
 print(f"Elapsed time: {elapsed_time:.2f} seconds")
