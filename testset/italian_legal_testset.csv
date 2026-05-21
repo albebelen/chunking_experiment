@@ -1,0 +1,123 @@
+query_type,query_style,query_length,difficulty,language,question,ground_truth,source_context
+factual,web search,short,easy,Italian,Qual è la data di adozione della Direttiva 2006/54/CE?,La Direttiva 2006/54/CE è stata adottata il 5 luglio 2006.,"Gazzetta ufficiale dell’Unione europea 
+
+L 204/23 
+
+26.7.2006 
+
+IT 
+
+## **DIRETTIVA 2006/54/CE DEL PARLAMENTO EUROPEO E DEL CONSIGLIO** 
+
+## **del 5 luglio 2006** 
+
+## **riguardante l'attuazione del principio delle pari opportunità e della parità di trattamento fra uomini e donne in materia di occupazione e impiego (rifusione)** 
+
+IL PARLAMENTO EUROPEO E IL CONSIGLIO DELL'UNIONE EUROPEA, 
+
+visto il trattato che istituisce la Comunità europea, in particolare l'articolo 141, paragrafo 3, 
+
+vista la proposta della Commissione, 
+
+visto il parere del Comitato economico e sociale ([1] ), 
+
+deliberando secondo la procedura di cui all'articolo 251 del trattato ([2] ), 
+
+considerando quanto segue:"
+reasoning,poor grammar,medium,medium,Italian,"Se la direttiva si fonda sull'articolo 141, paragrafo 3 del trattato, quale principio fondamentale è stato richiamato?",Il principio fondamentale richiamato è quello delle pari opportunità e della parità di trattamento fra uomini e donne in materia di occupazione e impiego.,"Gazzetta ufficiale dell’Unione europea 
+
+L 204/23 
+
+26.7.2006 
+
+IT 
+
+## **DIRETTIVA 2006/54/CE DEL PARLAMENTO EUROPEO E DEL CONSIGLIO** 
+
+## **del 5 luglio 2006** 
+
+## **riguardante l'attuazione del principio delle pari opportunità e della parità di trattamento fra uomini e donne in materia di occupazione e impiego (rifusione)** 
+
+IL PARLAMENTO EUROPEO E IL CONSIGLIO DELL'UNIONE EUROPEA, 
+
+visto il trattato che istituisce la Comunità europea, in particolare l'articolo 141, paragrafo 3, 
+
+vista la proposta della Commissione, 
+
+visto il parere del Comitato economico e sociale ([1] ), 
+
+deliberando secondo la procedura di cui all'articolo 251 del trattato ([2] ), 
+
+considerando quanto segue:"
+factual,web search,short,easy,Italian,Quali direttive sono state sostanzialmente modificate secondo il testo?,"La direttiva 76/207/CEE del Consiglio, del 9 febbraio 1976, e la direttiva 86/378/CEE del Consiglio, del 24 luglio 1986.","deliberando secondo la procedura di cui all'articolo 251 del trattato ([2] ), 
+
+considerando quanto segue: 
+
+- (1) La direttiva 76/207/CEE del Consiglio, del 9 febbraio 1976, relativa all'attuazione del principio della parità di trattamento fra gli uomini e le donne per quanto riguarda l'accesso al lavoro, alla formazione e alla promozione professionali e le condizioni di lavoro ([3] ) e la direttiva 86/378/CEE del Consiglio, del 24 luglio 1986, relativa all'attuazione del principio della parità di trattamento tra gli uomini e le donne nel settore dei regimi professionali di sicurezza sociale ([4] ) sono state sostanzialmente modificate ([5] ). La direttiva 75/117/CEE del Consiglio, del 10 febbraio 1975, per il ravvicinamento delle legislazioni degli Stati membri relative all'applicazione del principio della parità delle retribuzioni tra i lavoratori di sesso maschile e quelli di sesso femminile ([6] ) e la direttiva 97/80/CE del Consiglio, del 15 dicembre 1997, riguardante l'onere della prova nei casi di discriminazione basata sul sesso ([7] ) contengono anch'esse disposizioni che perseguono l'attuazione del principio della parità di trattamento fra uomini e donne. Tali direttive, dovendo essere ulteriormente modificate, sono rifuse per chiarezza e per raggruppare in un unico testo le principali disposizioni in materia, nonché certi sviluppi risultanti dalla giurisprudenza della Corte di giustizia delle Comunità europee (di seguito denominata «Corte di giustizia»)."
+reasoning,mispelled,medium,medium,Italian,"Per quale motivo le direttive 75/117/CEE e 97/80/CE sono state incluse nel nuovo testo unico, secondo il documento?","Poiché tali direttive dovevano ancora essere ulteriormente modificate, sono state rifiutate per chiarezza e per raggruppare in un unico testo le principali disposizioni in materia, nonché gli sviluppi risultanti dalla giurisprudenza della Corte di giustizia.","deliberando secondo la procedura di cui all'articolo 251 del trattato ([2] ), 
+
+considerando quanto segue: 
+
+- (1) La direttiva 76/207/CEE del Consiglio, del 9 febbraio 1976, relativa all'attuazione del principio della parità di trattamento fra gli uomini e le donne per quanto riguarda l'accesso al lavoro, alla formazione e alla promozione professionali e le condizioni di lavoro ([3] ) e la direttiva 86/378/CEE del Consiglio, del 24 luglio 1986, relativa all'attuazione del principio della parità di trattamento tra gli uomini e le donne nel settore dei regimi professionali di sicurezza sociale ([4] ) sono state sostanzialmente modificate ([5] ). La direttiva 75/117/CEE del Consiglio, del 10 febbraio 1975, per il ravvicinamento delle legislazioni degli Stati membri relative all'applicazione del principio della parità delle retribuzioni tra i lavoratori di sesso maschile e quelli di sesso femminile ([6] ) e la direttiva 97/80/CE del Consiglio, del 15 dicembre 1997, riguardante l'onere della prova nei casi di discriminazione basata sul sesso ([7] ) contengono anch'esse disposizioni che perseguono l'attuazione del principio della parità di trattamento fra uomini e donne. Tali direttive, dovendo essere ulteriormente modificate, sono rifuse per chiarezza e per raggruppare in un unico testo le principali disposizioni in materia, nonché certi sviluppi risultanti dalla giurisprudenza della Corte di giustizia delle Comunità europee (di seguito denominata «Corte di giustizia»)."
+factual,web search,short,easy,Italian,Qual è il riferimento della direttiva modificata dalla direttiva 2002/73/CE?,"La direttiva citata nel riferimento [3] è stata modificata dalla direttiva 2002/73/CE del Parlamento europeo e del Consiglio, pubblicata nella GU L 269 del 5 ottobre 2002, pag. 15.","- ([1] ) GU C 157 del 28.6.2005, pag. 83. 
+
+- ([2] ) Parere del Parlamento europeo del 6 luglio 2005 (non ancora pubblicato nella Gazzetta ufficiale), posizione comune del Consiglio del 10 marzo 2006 (GU C 126 E del 30.5.2006, pag. 33) e posizione del Parlamento europeo del 1[o] giugno 2006 (non ancora pubblicata nella Gazzetta ufficiale). 
+
+- ([3] ) GU L 39 del 14.2.1976, pag. 40. Direttiva modificata dalla direttiva 2002/73/CE del Parlamento europeo e del Consiglio (GU L 269 del 5.10.2002, pag. 15). 
+
+- ([4] ) GU L 225 del 12.8.1986, pag. 40. Direttiva modificata dalla direttiva 96/97/CE (GU L 46 del 17.2.1997, pag. 20). 
+
+- ([5] ) Cfr. allegato I, parte A. 
+
+- ([6] ) GU L 45 del 19.2.1975, pag. 9. 
+
+- ([7] ) GU L 14 del 20.1.1998, pag. 6. Direttiva modificata dalla direttiva 98/52/CE (GU L 205 del 22.7.1998, pag. 66). 
+
+- (2) La parità fra uomini e donne è un principio fondamentale del diritto comunitario, ai sensi dell'articolo 2 e dell'articolo 3, paragrafo 2, del trattato, nonché ai sensi della giurisprudenza della Corte di giustizia. Le suddette disposizioni del trattato sanciscono la parità fra uomini e donne quale «compito» e «obiettivo» della Comunità e impongono alla stessa l'obbligo concreto della sua promozione in tutte le sue attività."
+comparative,poor grammar,long,hard,Italian,Confronta le modifiche apportate alle direttive citate nei riferimenti [3] e [4]: quali direttive le hanno sostituite e quali sono le relative pubblicazioni nella Gazzetta ufficiale?,"Nel riferimento [3] la direttiva originale (GU L 39 del 14 febbraio 1976, pag. 40) è stata modificata dalla direttiva 2002/73/CE del Parlamento europeo e del Consiglio, pubblicata nella GU L 269 del 5 ottobre 2002, pag. 15. Nel riferimento [4] la direttiva originale (GU L 225 del 12 agosto 1986, pag. 40) è stata modificata dalla direttiva 96/97/CE, pubblicata nella GU L 46 del 17 febbraio 1997, pag. 20.","- ([1] ) GU C 157 del 28.6.2005, pag. 83. 
+
+- ([2] ) Parere del Parlamento europeo del 6 luglio 2005 (non ancora pubblicato nella Gazzetta ufficiale), posizione comune del Consiglio del 10 marzo 2006 (GU C 126 E del 30.5.2006, pag. 33) e posizione del Parlamento europeo del 1[o] giugno 2006 (non ancora pubblicata nella Gazzetta ufficiale). 
+
+- ([3] ) GU L 39 del 14.2.1976, pag. 40. Direttiva modificata dalla direttiva 2002/73/CE del Parlamento europeo e del Consiglio (GU L 269 del 5.10.2002, pag. 15). 
+
+- ([4] ) GU L 225 del 12.8.1986, pag. 40. Direttiva modificata dalla direttiva 96/97/CE (GU L 46 del 17.2.1997, pag. 20). 
+
+- ([5] ) Cfr. allegato I, parte A. 
+
+- ([6] ) GU L 45 del 19.2.1975, pag. 9. 
+
+- ([7] ) GU L 14 del 20.1.1998, pag. 6. Direttiva modificata dalla direttiva 98/52/CE (GU L 205 del 22.7.1998, pag. 66). 
+
+- (2) La parità fra uomini e donne è un principio fondamentale del diritto comunitario, ai sensi dell'articolo 2 e dell'articolo 3, paragrafo 2, del trattato, nonché ai sensi della giurisprudenza della Corte di giustizia. Le suddette disposizioni del trattato sanciscono la parità fra uomini e donne quale «compito» e «obiettivo» della Comunità e impongono alla stessa l'obbligo concreto della sua promozione in tutte le sue attività."
+factual,web search,short,easy,Italian,Qual è il principio che la Corte di giustizia ha stabilito si applichi anche alle discriminazioni derivanti da un cambiamento di sesso?,Il principio della parità di trattamento tra uomini e donne.,"- (3) La Corte di giustizia ha ritenuto che il campo d'applicazione del principio della parità di trattamento tra uomini e donne non possa essere limitato al divieto delle discriminazioni basate sul fatto che una persona appartenga all'uno o all'altro sesso. Tale principio, considerato il suo scopo e data la natura dei diritti che è inteso a salvaguardare, si applica anche alle discriminazioni derivanti da un cambiamento di sesso. 
+
+- (4) L'articolo 141, paragrafo 3, del trattato fornisce ormai una base giuridica specifica per l'adozione di provvedimenti comunitari volti ad assicurare l'applicazione del principio delle pari opportunità e della parità di trattamento in materia di occupazione e di impiego, compreso il principio della parità delle retribuzioni per uno stesso lavoro o per un lavoro di pari valore. 
+
+- (5) Gli articoli 21 e 23 della Carta dei diritti fondamentali dell'Unione europea vietano anch'essi qualsiasi discriminazione fondata sul sesso e sanciscono il diritto alla parità di trattamento fra uomini e donne in tutti i campi, compreso in materia di occupazione, di lavoro e di retribuzione."
+reasoning,mispelled,medium,medium,Italian,"Secondo il testo, quali disposizoni giuridiche dell'UE forniscono la base per provvedimenti comunitari che assicurino la parità di retribuzione per un lavoro di pari valore?","L'articolo 141, paragrafo 3, del Trattato e gli articoli 21 e 23 della Carta dei diritti fondamentali dell'Unione europea.","- (3) La Corte di giustizia ha ritenuto che il campo d'applicazione del principio della parità di trattamento tra uomini e donne non possa essere limitato al divieto delle discriminazioni basate sul fatto che una persona appartenga all'uno o all'altro sesso. Tale principio, considerato il suo scopo e data la natura dei diritti che è inteso a salvaguardare, si applica anche alle discriminazioni derivanti da un cambiamento di sesso. 
+
+- (4) L'articolo 141, paragrafo 3, del trattato fornisce ormai una base giuridica specifica per l'adozione di provvedimenti comunitari volti ad assicurare l'applicazione del principio delle pari opportunità e della parità di trattamento in materia di occupazione e di impiego, compreso il principio della parità delle retribuzioni per uno stesso lavoro o per un lavoro di pari valore. 
+
+- (5) Gli articoli 21 e 23 della Carta dei diritti fondamentali dell'Unione europea vietano anch'essi qualsiasi discriminazione fondata sul sesso e sanciscono il diritto alla parità di trattamento fra uomini e donne in tutti i campi, compreso in materia di occupazione, di lavoro e di retribuzione."
+factual,web search,short,easy,Italian,In quali contesti le molestie sessuali sono indicate come forme di discriminazione nel testo?,"Le molestie e le molestie sessuali sono forme di discriminazione basate sul sesso che si verificano sul posto di lavoro, nell'accesso al lavoro, nella formazione professionale e nella promozione professionale.","- (6) Le molestie e le molestie sessuali sono contrarie al principio della parità di trattamento fra uomini e donne e costituiscono forme di discriminazione fondate sul sesso ai fini della presente direttiva. Queste forme di discriminazione non si producono soltanto sul posto di lavoro, ma anche nel quadro dell'accesso al lavoro, alla formazione professionale nonché alla promozione professionale. Queste forme di discriminazione dovrebbero pertanto essere vietate e soggette a sanzioni efficaci, proporzionate e dissuasive. 
+
+- (7) In questo contesto, occorrerebbe incoraggiare i datori di lavoro e i responsabili della formazione professionale a prendere misure per combattere tutte le forme di discriminazione fondate sul sesso e, in particolare, a prendere misure preventive contro le molestie e le molestie sessuali sul posto di lavoro e nell'accesso al lavoro, alla formazione professionale e alla promozione professionale, a norma del diritto e della prassi nazionali. 
+
+- (8) Il principio della parità delle retribuzioni per uno stesso lavoro o per un lavoro di pari valore, stabilito dall'articolo 141 del trattato e costantemente sostenuto dalla giurisprudenza della Corte di giustizia, costituisce un aspetto importante del principio della parità di trattamento fra uomini e donne nonché una parte essenziale e 
+
+Gazzetta ufficiale dell’Unione europea 
+
+L 204/24 IT 
+
+26.7.2006"
+reasoning,poor grammar,medium,medium,Italian,"Se un datore di lavoro vuole rispettare la direttiva, che tipo di misure dovrebbe prendere per prevenire le molestie sessuali, secondo il documento?","Il documento invita i datori di lavoro e i responsabili della formazione professionale a adottare misure preventive contro le molestie e le molestie sessuali sul posto di lavoro, nell'accesso al lavoro, nella formazione professionale e nella promozione professionale, in conformità al diritto e alla prassi nazionali.","- (6) Le molestie e le molestie sessuali sono contrarie al principio della parità di trattamento fra uomini e donne e costituiscono forme di discriminazione fondate sul sesso ai fini della presente direttiva. Queste forme di discriminazione non si producono soltanto sul posto di lavoro, ma anche nel quadro dell'accesso al lavoro, alla formazione professionale nonché alla promozione professionale. Queste forme di discriminazione dovrebbero pertanto essere vietate e soggette a sanzioni efficaci, proporzionate e dissuasive. 
+
+- (7) In questo contesto, occorrerebbe incoraggiare i datori di lavoro e i responsabili della formazione professionale a prendere misure per combattere tutte le forme di discriminazione fondate sul sesso e, in particolare, a prendere misure preventive contro le molestie e le molestie sessuali sul posto di lavoro e nell'accesso al lavoro, alla formazione professionale e alla promozione professionale, a norma del diritto e della prassi nazionali. 
+
+- (8) Il principio della parità delle retribuzioni per uno stesso lavoro o per un lavoro di pari valore, stabilito dall'articolo 141 del trattato e costantemente sostenuto dalla giurisprudenza della Corte di giustizia, costituisce un aspetto importante del principio della parità di trattamento fra uomini e donne nonché una parte essenziale e 
+
+Gazzetta ufficiale dell’Unione europea 
+
+L 204/24 IT 
+
+26.7.2006"

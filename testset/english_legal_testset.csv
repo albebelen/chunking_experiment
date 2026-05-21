@@ -1,0 +1,147 @@
+query_type,query_style,query_length,difficulty,language,question,ground_truth,source_context
+factual,web search,short,easy,English,What is the publication date of Directive 2006/54/EC in the Official Journal of the European Union?,Directive 2006/54/EC was published on 26 July 2006.,"Official Journal of the European Union 
+
+L 204/23 
+
+26.7.2006 
+
+EN 
+
+## **DIRECTIVE 2006/54/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL** 
+
+## **of 5 July 2006** 
+
+## **on the implementation of the principle of equal opportunities and equal treatment of men and women in matters of employment and occupation (recast)** 
+
+THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION, 
+
+Having regard to the Treaty establishing the European Community, and in particular Article 141(3) thereof, 
+
+- (2) Equality between men and women is a fundamental principle of Community law under Article 2 and Article 3 (2) of the Treaty and the case-law of the Court of Justice. Those Treaty provisions proclaim equality between men and women as a ‘task’ and an ‘aim’ of the Community and impose a positive obligation to promote it in all its activities. 
+
+Having regard to the proposal from the Commission, 
+
+Having regard to the opinion of the European Economic and Social Committee ([1] ), 
+
+Acting in accordance with the procedure laid down in Article 251 of the Treaty ([2] ), 
+
+- (3) The Court of Justice has held that the scope of the principle of equal treatment for men and women cannot be confined to the prohibition of discrimination based on the fact that a person is of one or other sex. In view of its purpose and the nature of the rights which it seeks to safeguard, it also applies to discrimination arising from the gender reassignment of a person. 
+
+Whereas:"
+reasoning,mispelled,medium,medium,English,"Does the principle of equal treatment mentioned in the Directive also cover discrimnation arising from a person's gender reassignment, and which Court of Justice decision confirms this?","Yes, the principle of equal treatment also applies to discrimination arising from the gender reassignment of a person, as confirmed by the Court of Justice holding that the scope of the principle cannot be confined to the prohibition of discrimination based on sex.","Official Journal of the European Union 
+
+L 204/23 
+
+26.7.2006 
+
+EN 
+
+## **DIRECTIVE 2006/54/EC OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL** 
+
+## **of 5 July 2006** 
+
+## **on the implementation of the principle of equal opportunities and equal treatment of men and women in matters of employment and occupation (recast)** 
+
+THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION, 
+
+Having regard to the Treaty establishing the European Community, and in particular Article 141(3) thereof, 
+
+- (2) Equality between men and women is a fundamental principle of Community law under Article 2 and Article 3 (2) of the Treaty and the case-law of the Court of Justice. Those Treaty provisions proclaim equality between men and women as a ‘task’ and an ‘aim’ of the Community and impose a positive obligation to promote it in all its activities. 
+
+Having regard to the proposal from the Commission, 
+
+Having regard to the opinion of the European Economic and Social Committee ([1] ), 
+
+Acting in accordance with the procedure laid down in Article 251 of the Treaty ([2] ), 
+
+- (3) The Court of Justice has held that the scope of the principle of equal treatment for men and women cannot be confined to the prohibition of discrimination based on the fact that a person is of one or other sex. In view of its purpose and the nature of the rights which it seeks to safeguard, it also applies to discrimination arising from the gender reassignment of a person. 
+
+Whereas:"
+factual,web search,short,easy,English,"Which Council Directive, dated 9 February 1976, addresses equal treatment for men and women in employment and related areas?","Council Directive 76/207/EEC of 9 February 1976 on the implementation of the principle of equal treatment for men and women as regards access to employment, vocational training and promotion, and working conditions.","Whereas: 
+
+- (1) Council Directive 76/207/EEC of 9 February 1976 on the implementation of the principle of equal treatment for men and women as regards access to employment, vocational training and promotion, and working conditions ([3] ) and Council Directive 86/378/EEC of 24 July 1986 on the implementation of the principle of equal treatment for men and women in occupational social security schemes ([4] ) have been significantly amended ([5] ). Council Directive 75/117/ EEC of 10 February 1975 on the approximation of the laws of the Member States relating to the application of the principle of equal pay for men and women ([6] ) and Council Directive 97/80/EC of 15 December 1997 on the burden of proof in cases of discrimination based on sex ([7] ) also contain provisions which have as their purpose the implementation of the principle of equal treatment between men and women. Now that new amendments are being made to the said Directives, it is desirable, for reasons of clarity, that the provisions in question should be recast by bringing together in a single text the main provisions existing in this field as well as certain developments arising out of the case-law of the Court of Justice of the European Communities (hereinafter referred to as the Court of Justice). 
+
+- ([1] ) OJ C 157, 28.6.2005, p. 83."
+reasoning,mispelled,medium,medium,English,"If a new amendment consolidates the main provisions of the directives mentioned, which case-law body's developments would be included according to the excerpt?",Developments arising out of the case-law of the Court of Justice of the European Communities would be included.,"Whereas: 
+
+- (1) Council Directive 76/207/EEC of 9 February 1976 on the implementation of the principle of equal treatment for men and women as regards access to employment, vocational training and promotion, and working conditions ([3] ) and Council Directive 86/378/EEC of 24 July 1986 on the implementation of the principle of equal treatment for men and women in occupational social security schemes ([4] ) have been significantly amended ([5] ). Council Directive 75/117/ EEC of 10 February 1975 on the approximation of the laws of the Member States relating to the application of the principle of equal pay for men and women ([6] ) and Council Directive 97/80/EC of 15 December 1997 on the burden of proof in cases of discrimination based on sex ([7] ) also contain provisions which have as their purpose the implementation of the principle of equal treatment between men and women. Now that new amendments are being made to the said Directives, it is desirable, for reasons of clarity, that the provisions in question should be recast by bringing together in a single text the main provisions existing in this field as well as certain developments arising out of the case-law of the Court of Justice of the European Communities (hereinafter referred to as the Court of Justice). 
+
+- ([1] ) OJ C 157, 28.6.2005, p. 83."
+factual,web search,short,easy,English,Which article of the Treaty now provides a specific legal basis for the adoption of Community measures to ensure equal opportunities and equal pay?,Article 141(3) of the Treaty.,"- ([1] ) OJ C 157, 28.6.2005, p. 83. 
+
+- ([2] ) Opinion of the European Parliament of 6 July 2005 (not yet published in the Official Journal), Council Common Position of 10 March 2006(OJ C 126 E, 30.5.2006, p. 33) and Position of the European Parliament of 1 June 2006 (not yet published in the Official Journal). 
+
+- ([3] ) OJ L 39, 14.2.1976, p. 40. Directive as amended by Directive 2002/ 73/EC of the European Parliament and of the Council (OJ L 269, 5.10.2002, p. 15). 
+
+- ([4] ) OJ L 225, 12.8.1986, p. 40. Directive as amended by Directive 96/ 97/EC (OJ L 46, 17.2.1997, p. 20). 
+
+- ([5] ) See Annex I Part A. 
+
+- ([6] ) OJ L 45, 19.2.1975, p. 19. 
+
+- ([7] ) OJ L 14, 20.1.1998, p. 6. Directive as amended by Directive 98/52/ EC (OJ L 205, 22.7.1998, p. 66). 
+
+- (4) Article 141(3) of the Treaty now provides a specific legal basis for the adoption of Community measures to ensure the application of the principle of equal opportunities and equal treatment in matters of employment and occupation, including the principle of equal pay for equal work or work of equal value. 
+
+- (5) Articles 21 and 23 of the Charter of Fundamental Rights of the European Union also prohibit any discrimination on grounds of sex and enshrine the right to equal treatment between men and women in all areas, including employment, work and pay."
+reasoning,mispelled,medium,medium,English,Which articls of the Charter of Fundamental Rights prohibit discrimnation on grounds of sex?,Articles 21 and 23 of the Charter of Fundamental Rights of the European Union.,"- ([1] ) OJ C 157, 28.6.2005, p. 83. 
+
+- ([2] ) Opinion of the European Parliament of 6 July 2005 (not yet published in the Official Journal), Council Common Position of 10 March 2006(OJ C 126 E, 30.5.2006, p. 33) and Position of the European Parliament of 1 June 2006 (not yet published in the Official Journal). 
+
+- ([3] ) OJ L 39, 14.2.1976, p. 40. Directive as amended by Directive 2002/ 73/EC of the European Parliament and of the Council (OJ L 269, 5.10.2002, p. 15). 
+
+- ([4] ) OJ L 225, 12.8.1986, p. 40. Directive as amended by Directive 96/ 97/EC (OJ L 46, 17.2.1997, p. 20). 
+
+- ([5] ) See Annex I Part A. 
+
+- ([6] ) OJ L 45, 19.2.1975, p. 19. 
+
+- ([7] ) OJ L 14, 20.1.1998, p. 6. Directive as amended by Directive 98/52/ EC (OJ L 205, 22.7.1998, p. 66). 
+
+- (4) Article 141(3) of the Treaty now provides a specific legal basis for the adoption of Community measures to ensure the application of the principle of equal opportunities and equal treatment in matters of employment and occupation, including the principle of equal pay for equal work or work of equal value. 
+
+- (5) Articles 21 and 23 of the Charter of Fundamental Rights of the European Union also prohibit any discrimination on grounds of sex and enshrine the right to equal treatment between men and women in all areas, including employment, work and pay."
+factual,web search,short,easy,English,What forms of discrimination are described as contrary to the principle of equal treatment?,Harassment and sexual harassment are contrary to the principle of equal treatment between men and women and constitute discrimination on grounds of sex.,"- (6) Harassment and sexual harassment are contrary to the principle of equal treatment between men and women and constitute discrimination on grounds of sex for the purposes of this Directive. These forms of discrimination occur not only in the workplace, but also in the context of access to employment, vocational training and promotion. They should therefore be prohibited and should be subject to effective, proportionate and dissuasive penalties. 
+
+- (7) In this context, employers and those responsible for vocational training should be encouraged to take measures to combat all forms of discrimination on grounds of sex and, in particular, to take preventive measures against harassment and sexual harassment in the workplace and in access to employment, vocational training and promotion, in accordance with national law and practice. 
+
+- (8) The principle of equal pay for equal work or work of equal value as laid down by Article 141 of the Treaty and consistently upheld in the case-law of the Court of Justice constitutes an important aspect of the principle of equal treatment between men and women and an essential and 
+
+Official Journal of the European Union 
+
+L 204/24 EN 
+
+26.7.2006 
+
+indispensable part of the _acquis communautaire_ , including the case-law of the Court concerning sex discrimination. It is therefore appropriate to make further provision for its implementation."
+reasoning,mispelled,medium,medium,English,What measures shoud employrs and vocational training responsibles tak to combat sex discrimination according to the excerpt?,"Employers and those responsible for vocational training should be encouraged to take measures to combat all forms of discrimination on grounds of sex and, in particular, to take preventive measures against harassment and sexual harassment in the workplace and in access to employment, vocational training and promotion, in accordance with national law and practice.","- (6) Harassment and sexual harassment are contrary to the principle of equal treatment between men and women and constitute discrimination on grounds of sex for the purposes of this Directive. These forms of discrimination occur not only in the workplace, but also in the context of access to employment, vocational training and promotion. They should therefore be prohibited and should be subject to effective, proportionate and dissuasive penalties. 
+
+- (7) In this context, employers and those responsible for vocational training should be encouraged to take measures to combat all forms of discrimination on grounds of sex and, in particular, to take preventive measures against harassment and sexual harassment in the workplace and in access to employment, vocational training and promotion, in accordance with national law and practice. 
+
+- (8) The principle of equal pay for equal work or work of equal value as laid down by Article 141 of the Treaty and consistently upheld in the case-law of the Court of Justice constitutes an important aspect of the principle of equal treatment between men and women and an essential and 
+
+Official Journal of the European Union 
+
+L 204/24 EN 
+
+26.7.2006 
+
+indispensable part of the _acquis communautaire_ , including the case-law of the Court concerning sex discrimination. It is therefore appropriate to make further provision for its implementation."
+factual,web search,short,easy,English,"According to the excerpt, what principle is not limited to situations where men and women work for the same employer?",The principle of equal pay is not limited to situations in which men and women work for the same employer.,"indispensable part of the _acquis communautaire_ , including the case-law of the Court concerning sex discrimination. It is therefore appropriate to make further provision for its implementation. 
+
+- (9) In accordance with settled case-law of the Court of Justice, in order to assess whether workers are performing the same work or work of equal value, it should be determined whether, having regard to a range of factors including the nature of the work and training and working conditions, those workers may be considered to be in a comparable situation. 
+
+- (10) The Court of Justice has established that, in certain circumstances, the principle of equal pay is not limited to situations in which men and women work for the same employer. 
+
+- (11) The Member States, in collaboration with the social partners, should continue to address the problem of the continuing gender-based wage differentials and marked gender segregation on the labour market by means such as flexible working time arrangements which enable both men and women to combine family and work commitments more successfully. This could also include appropriate parental leave arrangements which could be taken up by either parent as well as the provision of accessible and affordable child-care facilities and care for dependent persons. 
+
+- (12) Specific measures should be adopted to ensure the implementation of the principle of equal treatment in occupational social security schemes and to define its scope more clearly."
+reasoning,mispelled,medium,medium,English,What measurs shoud be taken by Member States and social partners to reduce gender-based wage differntials and segregration in the labour market?,"Member States, in collaboration with the social partners, should address the problem of continuing gender‑based wage differentials and marked gender segregation by means such as flexible working time arrangements that enable both men and women to combine family and work commitments more successfully; this could also include appropriate parental leave arrangements that may be taken up by either parent, as well as the provision of accessible and affordable child‑care facilities and care for dependent persons.","indispensable part of the _acquis communautaire_ , including the case-law of the Court concerning sex discrimination. It is therefore appropriate to make further provision for its implementation. 
+
+- (9) In accordance with settled case-law of the Court of Justice, in order to assess whether workers are performing the same work or work of equal value, it should be determined whether, having regard to a range of factors including the nature of the work and training and working conditions, those workers may be considered to be in a comparable situation. 
+
+- (10) The Court of Justice has established that, in certain circumstances, the principle of equal pay is not limited to situations in which men and women work for the same employer. 
+
+- (11) The Member States, in collaboration with the social partners, should continue to address the problem of the continuing gender-based wage differentials and marked gender segregation on the labour market by means such as flexible working time arrangements which enable both men and women to combine family and work commitments more successfully. This could also include appropriate parental leave arrangements which could be taken up by either parent as well as the provision of accessible and affordable child-care facilities and care for dependent persons. 
+
+- (12) Specific measures should be adopted to ensure the implementation of the principle of equal treatment in occupational social security schemes and to define its scope more clearly."

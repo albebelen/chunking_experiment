@@ -12,6 +12,13 @@ class QuestionStructure(BaseModel):
     query_type: Literal["factual", "reasoning", "conditional", "comparative"] = Field(
         description="The structural type of the question. 'factual' for direct retrieval, 'reasoning' for multi-step logic, 'conditional' for if/then scenarios, 'comparative' for comparing articles."
     )
+    query_style: Literal["web search", "poor grammar", "mispelled"] = Field(
+        description="The structural type of the question. 'web search' for query similar to a web search, " \
+        "'poor grammar' for query with grammatical mistakes, 'mispelled' for query with mispelled word(s)."
+    )
+    query_length: Literal["short", "medium", "long"] = Field(
+        description="The length of each query can be short, medium or long."
+    )
     difficulty: Literal["easy", "medium", "hard"] = Field(
         description="The cognitive complexity: 'easy' (surface facts), 'medium' (requires interpretation), 'hard' (highly complex legal analysis)."
     )
@@ -24,9 +31,9 @@ class EvaluationTestSet(BaseModel):
 
 def generate_auto_evaluation_set(
         pdf_path: str,
-        output_csv: str = "auto_eval_testset.csv",
-        language: str = "Italian",
-        num_questions_per_chunk: int = 1
+        output_csv: str = "auto_eval_testset_eng.csv",
+        language: str = "English",
+        num_questions_per_chunk: int = 2
 ):
     client = instructor.from_openai(
         OpenAI(
@@ -47,7 +54,7 @@ def generate_auto_evaluation_set(
         f"Your task is to analyze the provided document excerpt and generate exactly {num_questions_per_chunk} distinct evaluation items.\n"
         f"CRITICAL REQUIREMENTS:\n"
         f"1. You MUST write all questions and ground_truth answers strictly in {language}.\n"
-        f"2. Vary the 'query_type' and 'difficulty' dynamically across the items you create.\n"
+        f"2. Vary the 'query_type', 'query_style', 'query_length' and 'difficulty' dynamically across the items you create.\n"
         f"3. Do not assume facts outside the text excerpt provided."
     )
 
@@ -81,7 +88,7 @@ def generate_auto_evaluation_set(
 
 if __name__ == "__main__":
     generate_auto_evaluation_set(
-        pdf_path="../documents/CELEX_32006L0054_IT_TXT.pdf",
-        output_csv="italian_legal_testset.csv",
-        language="Italian"
+        pdf_path="../documents/CELEX_32006L0054_EN_TXT.pdf",
+        output_csv="english_legal_testset.csv",
+        language="English"
     )
