@@ -220,3 +220,4 @@ __marimo__/
 *.txt
 *.md
 .DS_Store
+*.xlsx
