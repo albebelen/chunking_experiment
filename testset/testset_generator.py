@@ -9,6 +9,7 @@ import asyncio
 import nest_asyncio
 import pandas as pd
 from ragas.testset.synthesizers.single_hop.specific import SingleHopSpecificQuerySynthesizer
+from ragas.testset.persona import Persona
 
 import pymupdf4llm
 from pathlib import Path
@@ -22,11 +23,20 @@ OLLAMA_EMBEDDING_MODEL = "qwen3-embedding:0.6b"
 OLLAMA_API_KEY = "da62361e1f074c83a785c95430955175.R7Nu4daE7L7NwvNTq2kcVnuf"
 
 async def generate_testset():
-    llm = ChatOllama(
+    # llm = ChatOllama(
+    #     model=OLLAMA_BASE_MODEL,
+    #     base_url=OLLAMA_BASE_URL,
+    #     temperature=0,
+    # )
+
+
+    llm = Ollama(
         model=OLLAMA_BASE_MODEL,
-        base_url=OLLAMA_BASE_URL,
+        base_url=OLLAMA_CLOUD_URL,
         temperature=0,
+        headers={"Authorization": f"Bearer {OLLAMA_API_KEY}"}
     )
+
     embeddings = OllamaEmbeddings(
         model=OLLAMA_EMBEDDING_MODEL, 
         base_url=OLLAMA_BASE_URL,
@@ -35,18 +45,22 @@ async def generate_testset():
     generator_llm = LangchainLLMWrapper(llm)
     generator_embeddings = LangchainEmbeddingsWrapper(embeddings)
 
-    md_text = pymupdf4llm.to_markdown("../documents/CELEX_32006L0054_IT_TXT.pdf")
+    md_text = pymupdf4llm.to_markdown("../documents/CELEX_32006L0054_EN_TXT.pdf")
     Path("output.md").write_bytes(md_text.encode())
 
     loader = DirectoryLoader('.', glob="output.md")
     docs = loader.load()
 
-    italian_synthesizer = SingleHopSpecificQuerySynthesizer(llm=generator_llm)
-    italian_prompts = await italian_synthesizer.adapt_prompts("italian", llm=generator_llm)
-    italian_synthesizer.set_prompts(**italian_prompts)
+    # IT questions
+    # italian_synthesizer = SingleHopSpecificQuerySynthesizer(llm=generator_llm)
+    # italian_prompts = await italian_synthesizer.adapt_prompts("italian", llm=generator_llm)
+    # italian_synthesizer.set_prompts(**italian_prompts)
+
+    # EN questions
+    english_synthesizer = SingleHopSpecificQuerySynthesizer(llm=generator_llm)
 
     query_distribution = [
-            (italian_synthesizer, 1.0) # 100% of questions will use this Italian workflow
+            (english_synthesizer, 1.0) # 100% of questions will use this Italian workflow
     ]
 
     generator = TestsetGenerator(
@@ -54,13 +68,20 @@ async def generate_testset():
             embedding_model=generator_embeddings
     )
 
+    generator.persona_list = [
+        Persona(
+            name="HR Compliance Specialist", 
+            role_description="A legal expert focused on corporate governance, workplace compliance, and labor laws." #"Un esperto legale incentrato sulla conformità aziendale e sul diritto del lavoro."
+        )
+    ]
+
     loop = asyncio.get_running_loop()
 
     testset = await loop.run_in_executor(
         None,  # Uses default ThreadPoolExecutor
         lambda: generator.generate_with_langchain_docs(
             documents=docs,
-            testset_size=10,
+            testset_size=11,
             query_distribution=query_distribution
         )
     )
@@ -72,7 +93,7 @@ async def generate_testset():
     pd.set_option("display.max_colwidth", None)
     pd.set_option("display.width", 1000)
 
-    res.to_csv("testset_generated.csv", index=False) 
+    res.to_csv("testset_generated_en.csv", index=False) 
 
 # async def main():
 #     # Force an explicit async task allocation context for sniffio to hook into
